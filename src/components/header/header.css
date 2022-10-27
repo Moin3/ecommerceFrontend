@@ -1,3 +1,8 @@
+/**
+*
+* Testing
+*
+**/
 .h-container {
   font-size: 20px;
 }
@@ -46,9 +51,19 @@
   color: #ff7c01;
   font-family: 'Peralta', cursive;
   font-size: 23px;
+  margin-left: 15px;
+}
+
+@media (max-width: 375px) {
+  .h-col1 .logo {
+    font-size: 14px;
+    margin-left: 5px;
+    padding: 5px;
+  }
 }
 
 .h-col1 .h-menu {
+  color: #f7eeee;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,10 +79,19 @@
 
 .h-col1 .h-menu .menu-item li {
   list-style-type: none;
+  margin: 0px 15px;
+}
+
+@media (max-width: 375px) {
+  .h-col1 .h-menu .menu-item li {
+    font-size: 10px;
+    margin: 0px 5px;
+  }
 }
 
 .h-col1 .h-menu .menu-item .menu-link {
   text-decoration: none;
+  color: #f7eeee;
 }
 
 .h-col1 .h-menu .menu-item .menu-link:hover {
@@ -120,6 +144,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  color: #f7eeee;
 }
 
 .h-col2 .h-anotherMenu .menu-anotherItem li .menu-anotherLink:hover {
@@ -138,6 +163,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0px 15px;
+}
+
+@media (max-width: 375px) {
+  .h-col2 .h-anotherMenu .menu-anotherItem li .menu-anotherLink .menu-div {
+    font-size: 13px;
+    margin: 0px 5px;
+  }
 }
 
 .h-col2 .h-anotherMenu .menu-anotherItem li .menu-anotherLink .menu-div .menu-badge {

@@ -1,3 +1,8 @@
+/**
+*
+* Testing
+*
+**/
 .i-container {
   margin-top: 76px;
   z-index: -100;
@@ -46,6 +51,12 @@
           align-items: center;
 }
 
+@media (max-width: 375px) {
+  .imgDiv p {
+    font-size: 20px;
+  }
+}
+
 .imgDiv .secondSlide {
   margin-right: 20px;
 }
@@ -58,6 +69,7 @@
   border-radius: 5px;
   font-size: large;
   border: none;
+  color: #f7eeee;
 }
 
 .imgDiv button:hover {

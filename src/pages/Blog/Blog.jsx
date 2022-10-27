@@ -1,16 +1,16 @@
 import React from 'react'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
-import WishList from '../components/WishList'
+import BlogList from '../../components/BlogList/BlogList'
+import Footer from '../../components/footer/Footer'
+import Header from '../../components/header/Header'
 
-const Wish = () => {
+const Blog = () => {
   return (
     <div className='wrapper'>
       <header className='header'>
         <Header />
       </header>
       <main className='main'>
-        <WishList />
+        <BlogList />
       </main>
       <footer className='footer'>
         <Footer />
@@ -19,4 +19,4 @@ const Wish = () => {
   )
 }
 
-export default Wish
+export default Blog

@@ -1,8 +1,9 @@
 import React from 'react'
 import './shop.css'
-// import Footer from '../components/Footer'
 import Header from '../../components/header/Header'
-// import ShopMainPart from '../../components/ShopMainPart'
+import Footer from '../../components/footer/Footer'
+import ShopMainPart from '../../components/shopMainPart/ShopMainPart'
+
 
 const Shop = () => {
   return (
@@ -11,11 +12,10 @@ const Shop = () => {
         <Header/>
       </header>
       <main className='main'>
-        {/* <ShopMainPart /> */}
-        moin
+        <ShopMainPart />
       </main>
       <footer className='footer'>
-        {/* <Footer /> */}
+        <Footer/>
       </footer>
     </div>
   )

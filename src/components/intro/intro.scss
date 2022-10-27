@@ -1,3 +1,4 @@
+@import '../../breakpoints/breakpoints.scss';
 .i-container{
     margin-top: 76px;
     z-index: -100;
@@ -30,6 +31,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    @include media('<=phone'){
+      font-size: 20px;
+   }
     
   }
   .secondSlide{
@@ -43,6 +47,7 @@
     border-radius: 5px;
     font-size: large;
     border: none;
+    color:rgb(247, 238, 238);
     &:hover{
         background-color: rgb(43, 39, 149);
         transition: all .2s ease-in;
